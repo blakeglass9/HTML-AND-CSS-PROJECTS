@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Space Exploration Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+        form {
+            text-align: center;
+        }
+        input[type="text"], input[type="email"], textarea {
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            width: 80%;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Space Exploration Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#pictures">Pictures</a>
+        <a href="#contact">Contact</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home page section. Feel free to add any content you want here.</p>
+    </section>
+
+    <section id="pictures">
+        <h2>Pictures</h2>
+        <img src="https://stock.adobe.com/search?k=outer+space&asset_id=515025981" alt="Image 1">
+        <img src="https://stock.adobe.com/search?k=outer+space&asset_id=189933972" alt="Image 2">
+        <img src="https://stock.adobe.com/search?k=outer+space&asset_id=194601892" alt="Image 3">
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+        <iframe src="https://www.youtube.com/watch?v=ztVV54sPOns" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Space Exploration Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
