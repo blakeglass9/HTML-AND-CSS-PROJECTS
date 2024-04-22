@@ -203,7 +203,7 @@ Contact STYLES
     width: 60%;
     padding: 10px;
     border-radius: 8px;
-    margin: 0px auto;
+    margin: auto;
     background-color: rgba(100, 65, 0, .3);
     box-shadow: -px -px 1px 0 rgba(0, 0, 0, 0.5)
 }
@@ -245,11 +245,12 @@ Contact STYLES
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
-    margin: 2% auto;
+    margin: auto;
     border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
+    display: inline-block;
 }
 
 .reservation input[type="text"]:hover {
