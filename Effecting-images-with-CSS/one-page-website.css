@@ -1,0 +1,29 @@
+/* Set font-family for the text */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font with fallback to a generic sans-serif font */
+  }
+  
+  /* Set font-size for the text */
+  p {
+    font-size: 16px; /* Set the font size to 16 pixels */
+  }
+  
+/* Set width of the inputs */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+  }
+  
+  /* Set margin between the inputs */
+  input[type="text"] + input[type="email"],
+  input[type="email"] + input[type="password"] {
+    margin-top: 10px;
+  }
+  
+  /* Set border of the inputs */
+  input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
