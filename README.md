@@ -2,9 +2,10 @@
 This is a display of sample websites that I made using HTML and CSS.
 
 # Projects
-<a href="./Effecting-images-with-CSS/SpaceStation.html>
+<a href="./Effecting-images-with-CSS/SpaceStation.html">Link 1</a>
 
-<a href="./bootstrap4_project/academy_cinemas.html>
+<a href="./bootstrap4_project/academy_cinemas.html">Link 2</a>
+
 
 # Space Station Site
 
